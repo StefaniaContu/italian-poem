@@ -1,6 +1,5 @@
 function generatePoem(event) {
   event.preventDefault();
-  alert("Generating Poem");
 
   new Typewriter("#poem", {
     strings: ["Si sta come d'inverno sugli alberi le foglie"],
